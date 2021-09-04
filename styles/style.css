@@ -24,6 +24,10 @@ body {
   
 }
 
+.phone img{
+  margin-bottom: 180px;
+}
+
 .instagram{
   width: 41%;
   display: flex;
@@ -67,6 +71,7 @@ body {
   background-repeat: none;
   background-size: cover;
   padding: 6%;
+  margin-bottom: 300px;
 }
 
 .imagenes{
@@ -78,18 +83,20 @@ body {
   margin: auto;
 }
 
-.footer {
-  margin-top: 14%;
-  align-items: flex-end;
-}
 
 .nav-list {
   display: flex;
   flex-direction: row;
-  list-style: none;
+  align-items: center;
   justify-content: space-evenly;
-  margin-left: 9%;
-  margin-right: 9%;
+  margin: 0 300px 0 300px;
+  list-style: none;
+  
+}
+
+.nav-list li{
+  color: blue;
+  font-weight: 600;
 }
 
 #copyright {
